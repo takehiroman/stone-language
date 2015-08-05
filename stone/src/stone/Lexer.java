@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public class Lexer {
 	public static String regexPat
 		= "\\s*((//.*)|([0-9]+)|(\"(\\\\\"|\\\\\\\\|\\\\n|[^\"])*\")"
-		  + "|[A-Z_a-z][A-Z_a-z0-9]*|==|<=|>=|&&|\\|\\||\\p{Punct})?";
+		          + "|[A-Z_a-z][A-Z_a-z0-9]*|==|<=|>=|&&|\\|\\||\\p{Punct})?";
 	private Pattern pattern = Pattern.compile(regexPat);
 	private ArrayList<Token> queue = new ArrayList<Token>();
 	private boolean hasMore;
@@ -56,7 +56,7 @@ public class Lexer {
 	Matcher matcher = pattern.matcher(line);
 	matcher.useTransparentBounds(true).useAnchoringBounds(false);
 	int pos = 0;
-	int endPos = 0;
+	int endPos = line.length();
 	while (pos < endPos){
 		matcher.region(pos,endPos);
 		if(matcher.lookingAt()){
