@@ -1,5 +1,0 @@
-package stone;
-
-public abstract class Token {
-
-}
