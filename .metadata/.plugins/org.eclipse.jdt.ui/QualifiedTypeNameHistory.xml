@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="stone.ast.ParameterList"/>
+<fullyQualifiedTypeName name="stone.ast.Arguments"/>
+<fullyQualifiedTypeName name="chap6.Environment"/>
+<fullyQualifiedTypeName name="stone.StoneException"/>
+<fullyQualifiedTypeName name="chap6.BasicEvaluator"/>
+<fullyQualifiedTypeName name="chap6.BasicEvaluator.BlockEx"/>
+<fullyQualifiedTypeName name="stone.Parser"/>
+<fullyQualifiedTypeName name="chap6.BasicEvaluator.ASTreeEx"/>
+<fullyQualifiedTypeName name="chap7.FuncEvaluator"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="stone.ClosureParser"/>
+<fullyQualifiedTypeName name="stone.ParseException"/>
+<fullyQualifiedTypeName name="chap6.BasicInterpreter"/>
+<fullyQualifiedTypeName name="chap7.NestedEnv"/>
+<fullyQualifiedTypeName name="chap7.ClosureEvaluator"/>
 </qualifiedTypeNameHistroy>
