@@ -2,7 +2,9 @@
 /stone/build/
 /stone/dist/
 /RemoteSystemTempFiles
-.metadata
+/.metadata/
 /stone/bin/
-/stone/dist/
 /stone/nbproject/
+/stone/.classpath
+/stone/.project
+/stone/.setting/
